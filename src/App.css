@@ -27,7 +27,26 @@
 .App-link {
   color: #61dafb;
 }
-
+.fontP{
+  font-size: 50px;
+  font-family: cursive;
+}
+.shasow{
+  text-shadow: 1.8px 1.8px lightblue;
+}
+.floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 40px); }
+  to   { transform: translate(0, -0px); }    
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
